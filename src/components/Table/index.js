@@ -2,7 +2,7 @@ import './style.scss';
 
 const Table = (props) => {
   const { data, setTableShown } = props;
-
+ 
   return (
     <div className="table-container">
       <div className="shadow" onClick={() => setTableShown(false)}></div>
