@@ -1,0 +1,10 @@
+.App {
+  color: #333;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  column-gap: 15px;
+  margin: 15px;
+}
